@@ -2,7 +2,7 @@ import discord
 from discord import app_commands
 import random
 
-id_do_servidor = 956586784651878400 #Coloque aqui o ID do seu servidor
+id_do_servidor =  #Coloque aqui o ID do seu servidor
 
 class client(discord.Client):
     def __init__(self):
@@ -36,4 +36,4 @@ async def slash4(interaction: discord.Interaction):
 
 
 
-aclient.run('OTUwNDIxNTEzMjIyMzY1MjE0.YiYrAg.8KzcgJMiwOAWX2Bsgf9t0Y5bwv0')
+aclient.run('token')
